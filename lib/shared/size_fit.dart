@@ -25,7 +25,7 @@ class HYSizeFit {
     if (screenWidth < standardWidth) {
       return HYSizeFit.rpx * size;
     } else {
-      return size * density;
+      return size / density;
     }
   }
 }
